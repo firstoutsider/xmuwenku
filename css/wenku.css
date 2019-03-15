@@ -1,0 +1,316 @@
+/*-----------p-all-----------*/
+html,
+body{
+	height: 100%
+}
+
+.website-content{   
+    width:100%;
+    min-height:100%;   
+    padding-bottom: 105px;
+}
+/*-----------p-all end-----------*/
+
+/*-----------p-all navbar-----------*/
+@media (max-width: 389px) {
+  .navbar-brand {
+    width: 50%;
+  }/*小屏幕，图片调小后，导航栏与button在同一行*/
+}
+
+nav.bg-light{
+	background-color: #c9D5E3 !important; 
+}
+
+.navbar-brand img{
+  position: relative;
+  top: -11px;
+}/*调整图片位置*/
+
+.mr-auto{
+	margin-left: auto !important;
+	margin-right: 2rem !important;
+}/*导航的字靠右*/
+
+.navbar-collapse{
+  position: relative;
+  top: 6px;
+}/*导航的字向下移动*/
+
+.nav-link{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}/*导航间距加宽*/
+
+/*-----------p-all navbar end-----------*/
+
+/* --------p-all footer section -------- */
+#footer{
+	padding-top: 1rem;	
+    padding-bottom: 0.5rem;
+	background-color: #c9D5E3;
+	text-align: right;
+    line-height: 1;
+    margin-top: -105px;
+}
+
+#copyrights p{
+	margin-bottom: 0;
+	padding-bottom: 0.5rem;
+}
+/* --------p-all footer section end-------- */
+
+/* --------p1 introduce section -------- */
+.index-introduce{
+	margin-bottom: 5px;
+}
+.centered {
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .introduce > :first-child {
+    margin-top: 100px;
+  }/*为了让文字上下居中*/
+}
+/* --------p1 introduce section end-------- */
+
+/* --------p1 picture section -------- */
+.pcturesection-img{
+ display:flex;
+ justify-content:center;
+ align-items:center;
+    height: 300px;
+	padding: 10px;
+	border: 1px solid #c9D5E3;
+	min-width: 200px;
+}
+
+.pcturesection-img img{
+   max-width: 100%;
+   max-height: 100%;
+    }
+
+.booklist-inf{
+ min-width: 200px;
+ margin-bottom: 5px;
+}
+
+.booklist-section p{
+	margin-bottom: 0;
+}
+
+/* --------p1 picture section end-------- */
+
+/* --------p2 content -------- */
+.content-orgnization{
+ background-color: #f3f3f3;
+}
+/* --------p2 content end-------- */
+
+/* --------p2 orgnization section -------- */
+.orgnization-section {
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+.orgnization{
+	background-color: #fff;
+	background-repeat: no-repeat;
+	border-bottom: 5px solid #e2e2e2;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 10px;	
+	border-radius: 10px;
+	min-height: 60px;
+	min-width: 200px;
+	vertical-align:middle;
+}
+
+.orgnization-name{
+	padding-top: 5px;
+}
+
+
+/* --------p2 orgnization section end -------- */
+
+
+/* --------p3 content -------- */
+.content-booklist{
+ background-color: #f3f3f3;
+}
+/* --------p3 content end-------- */
+
+/*---------p3 breadcrumb-------- */
+.booklist.breadcrumb{
+	background-color: #f3f3f3;
+	padding-top: 20px;
+	margin-bottom: 10px;
+}
+/*---------p3 breadcrumb end-------- */
+
+/* --------p3 books section -------- */
+.booklist-section{
+	margin: auto;
+}
+
+.booklist-img{
+ height: 250px;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+
+ 	background-color: #fff;
+	background-repeat: no-repeat;
+	border-bottom: 5px solid #e2e2e2;
+	padding: 10px;
+	margin-bottom: 10px;	
+	border-radius: 10px;
+	min-width:  200px;
+}
+.booklist-img a{
+	height: 100%;
+	width: 100%;
+	 display:flex;
+     justify-content:center;
+     align-items:center;
+
+}
+
+.booklist-img img{
+   max-width: 100%;
+   max-height: 100%;
+ }
+
+.booklist-inf{
+ min-width: 200px;
+ min-height: 50px;
+ margin-bottom: 5px;
+}
+
+.booklist-section p{
+	margin-bottom: 0;
+}
+/*--------p3 books section end-------- */
+
+
+/*--------p3 pagination section end-------- */
+.paginationrow{
+	margin-top: 15px;	
+	margin-bottom: 15px;
+	text-align: center;
+}
+.paginationrow .form-control{
+	max-width: 200px;
+}
+.paginationrow ul{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.paginationrow form{
+	max-width: 320px;
+	margin: auto;
+	vertical-align: middle;
+}
+.paginationrow p{
+	margin: auto;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+@media(min-width: 748px){/*为了让几个数据，在大屏幕的情况下显示在同一行*/
+.paginationrow{
+	display:flex;justify-content:center;align-items:center;
+}
+.paginationrow form{
+	margin-left: 10px;
+	margin-right: 10px;
+}	
+}
+/*--------p3 pagination section end-------- */
+
+
+/*---------p4 breadcrumb-------- */
+.book-content.breadcrumb{
+	background-color: #fff;
+	padding-top: 20px;
+	margin-bottom: 0px;
+}
+/*---------p4 breadcrumb end-------- */
+
+
+
+/*---------p4 book-content section -------- */
+.bookcontent-section{
+	margin: auto;
+}/*为了居中显示*/
+
+@media (min-width:768px){
+.book-left{
+	border-right: 1px solid #c3ccdf;
+}
+}/*双栏的时候，加边框*/
+
+.booksimple{
+ display:flex;
+ justify-content:center;
+ align-items:center;
+}
+.booksimple-img{
+ display:flex;
+ justify-content:center;
+ align-items:center;
+    height: 250px;
+	padding: 10px;
+	margin-bottom: 10px;	
+	border-radius: 10px;
+}
+.booksimple-img img{
+   max-width: 100%;
+   max-height: 100%;
+ }
+/*---------p4 book-content section  end-------- */
+
+/*--------p4 pagination section -------- */
+@media (min-width: 487px){
+.bookpagination{
+	width: 100%;
+  	margin: 15px auto;	
+}
+.right-link{
+	float: right;
+}
+.pagination2{
+	width: 60%;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-left: auto;
+}/*大屏幕两行错开显示*/
+}
+@media(max-width: 486px){
+.bookpagination span{
+	display: block;
+	text-align: center;
+	margin-bottom: 3px;
+}/*小屏幕可以换行居中显示*/
+}
+
+/*--------p4 pagination section end-------- */
+
+/*--------p5 content section -------- */
+.chang h2{
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+.chang p{
+	text-indent: 2em;
+	line-height: 2em;
+	margin-bottom: 0;
+}
+.contact p{
+	text-indent: 0;
+}
+.contact .text-right{
+	margin-right: 3em;
+}
+/*--------p5 content section end-------- */
